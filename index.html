@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RPS</title>
+<script language="javascript" type="text/javascript" src="jquery-1.11.3.min.js"></script>
+<script language="javascript" type="text/javascript" src="game.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+<div id="head">
+	Rock-Paper-Scissors
+</div>
+
+<div id="action-wrap">
+<!--adventure log-->
+	<div id="adventure-text">
+
+	</div>
+<!--player Status-->
+	<div id="stats">
+		<h2>Status</h2>
+		<ul style="padding: 10px 0 0 0">
+			<li class="innerStats" id="p-health">
+				<span style="color:green">Health:</span>
+				<span id="myHealth"> </span></li>
+
+			<li class="innerStats" id="p-attack">
+				<span style="color:red">Attack:</span>
+				<span id="myAttack"> </span> </li>
+		</ul>
+	</div>
+</div>
+<!--Player input-->
+<div id="attackBox">
+	<button id="rock" class="attack">Rock</button>	
+	<button id="paper" class="attack">Paper</button>
+	<button id="scissors" class="attack">Scissors</button>	
+</div>
+
+
+
+</body>
+</html>

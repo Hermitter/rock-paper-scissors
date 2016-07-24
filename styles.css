@@ -1,0 +1,77 @@
+body{ 
+	background-color: #000;
+	color: white;
+	max-width: 1300px;
+	margin: auto;
+}
+
+#head{
+ text-align:center;
+ width: 40%;
+ padding: 10px;
+ display:block;
+ margin:auto;
+ border-style: solid;
+ border-color:white;
+ border-width: 5px;
+ margin-bottom: 25px;
+}
+
+#action-wrap{
+	 margin-bottom: 10px;
+	 height:520px;
+}
+
+/*MAIN BOXES*/
+#adventure-text, #stats{
+ display:inline-block;
+ border-style: solid;
+ border-color:white;
+ border-width: 5px;
+ overflow-x:hidden;
+ float:left;
+}
+#adventure-text{
+	overflow-y:scroll;
+}
+#stats{
+	overflow-y:hidden;
+ }
+/*END MAIN BOXES*/
+
+#adventure-text{
+ text-align:left;
+ width: 70%;
+ margin:auto;
+ height: 500px;
+}
+
+#stats{
+ text-align: center;
+ /*float:right;*/
+ width: 25%;
+ margin:auto;
+ height: 500px;
+}
+.innerStats{
+	list-style-type: none;
+}
+
+#attackBox{
+	width:100%;
+	height:56px;
+	display:block;
+	margin:auto;
+	text-align:center;
+}
+
+.attack {
+    width: 15%;
+    height: 100%;
+    display: inline-block;
+    margin:auto;
+}
+
+
+
+
